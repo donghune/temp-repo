@@ -18,6 +18,4 @@ object Plugins {
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:${Plugins.KOTLIN}")
     implementation("com.android.tools.build:gradle:${Plugins.AGP}")
-    implementation("com.amplifyframework:amplify-tools-gradle-plugin:1.0.2")
-    implementation("com.amazonaws:aws-android-sdk-appsync-gradle-plugin:2.6.28")
 }

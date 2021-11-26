@@ -1,6 +1,5 @@
 package com.dragonsnest.data.mapper
 
-import com.amplifyframework.datastore.generated.model.User
 import com.dragonsnest.domain.entity.UserEntity
 
 fun User.toUserEntity(): UserEntity {

@@ -39,10 +39,5 @@ dependencies {
     implementation(Dependency.DependencyInject.Hilt.runtime)
     kapt(Dependency.DependencyInject.Hilt.compiler)
 
-    implementation(Dependency.Amplify.coreKotlin)
-    implementation(Dependency.Amplify.api)
-    implementation(Dependency.Amplify.auth)
-    implementation(Dependency.Amplify.dateSource)
-
     implementation(project(mapOf("path" to ":domain")))
 }

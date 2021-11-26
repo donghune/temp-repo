@@ -72,11 +72,5 @@ dependencies {
     implementation(Dependency.DependencyInject.Hilt.runtime)
     kapt(Dependency.DependencyInject.Hilt.compiler)
 
-    implementation("com.facebook.android:facebook-login:9.0.0")
-
-    implementation(Dependency.Amplify.coreKotlin)
-    implementation(Dependency.Amplify.api)
-    implementation(Dependency.Amplify.auth)
-    implementation(Dependency.Amplify.dateSource)
     implementation(project(mapOf("path" to ":domain")))
 }

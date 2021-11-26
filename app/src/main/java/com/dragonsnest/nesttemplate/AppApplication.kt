@@ -18,8 +18,6 @@ class AppApplication : Application() {
         super.onCreate()
 
         try {
-            Amplify.addPlugin(AWSApiPlugin())
-            Amplify.configure(applicationContext)
             Log.i(TAG, "onCreate: Initialized Amplify")
         } catch (exception: AmplifyException) {
             Log.e(TAG, "onCreate: Could not initialize Amplify", exception)
